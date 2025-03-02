@@ -1,3 +1,4 @@
+# Purpose: Define the outputs for the Terraform configuration
 # output "bastion_public_ip" {
 #   description = "Public IP of the Bastion Host"
 #   value = aws_instance.ec2.name==
