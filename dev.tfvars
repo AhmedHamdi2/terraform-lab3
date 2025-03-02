@@ -4,6 +4,8 @@ private_subnet_cidr="10.0.2.0/24"
 env="dev"
 ami="ami-04b4f1a9cf54c11d0"
 region="us-east-1"
+app_count = 1
+instance_type = "t2.micro"
 
 list_ec2_configs = [
     {

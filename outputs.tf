@@ -18,3 +18,14 @@
 #   value       = [for instance in aws_instance.ec2 : instance.public_ip if instance.tags["Name"] == "Bastion-1-${terraform.workspace}"]
 # }
 
+
+# output "rds_endpoint" {
+#   description = "RDS MySQL Endpoint"
+#   value       = aws_db_instance.rds_mysql.endpoint
+# }
+
+# output "redis_endpoint" {
+#   description = "Redis Primary Endpoint"
+#   value       = aws_elasticache_cluster.redis_cluster.primary_endpoint_address
+# }
+
